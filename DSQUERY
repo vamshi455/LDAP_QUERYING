@@ -1,0 +1,5 @@
+dsquery group "CN=BRT-TABLEAU-CREATOR-TRIAL-LICENSE,OU=GROUPS,OU=DALLAS,DC=organization,DC=net" | dsget group -members >>TRIAL_LICENSE_MEMBERS.TXT
+dsquery group "CN=BRT-TABLEAU-LICENSE-CREATOR,OU=GROUPS,OU=DALLAS,DC=organization,DC=net" | dsget group -members >>LICENSE_CREATOR_MEMBERS.TXT
+dsquery group "CN=BRT-TABLEAU-LICENSE-EXPLORER,OU=GROUPS,OU=HOUSTON,DC=organization,DC=net" | dsget group -members >>LICENSE_EXPLORER_MEMBERS.TXT
+dsquery group "CN=BRT-TABLEAU-LICENSE-VIEWER,OU=GROUPS,OU=DALLAS,DC=organization,DC=net" | dsget group -members >>LICENSE_VIEWER_MEMBERS.TXT
+
